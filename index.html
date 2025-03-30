@@ -3,69 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>努努剧 - 免费高清影视在线观看平台 | 电影 | 电视剧 | 动漫</title>
+    
+    <title>努努剧 - 开源的影视解决方案 | GitHub</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="努努剧提供海量高清影视资源，包括最新电影、热播电视剧、动漫番剧等在线观看，画质清晰、播放流畅、更新快速，打造极致观影体验。">
-    <meta name="keywords" content="努努剧,在线影视,免费电影,电视剧在线观看,高清动漫,nunuju">
-    <meta name="author" content="努努剧官方">
+    <meta name="description" content="努努剧开源项目，基于Vue3+TypeScript构建的影视网站解决方案。支持自定义资源接口，弹幕系统，用户系统等功能模块。欢迎开发者参与贡献。">
+    <meta name="keywords" content="开源影视系统,Vue3影视项目,TypeScript,弹幕系统,影视网站源码,开源项目">
+    <meta name="author" content="努努剧开发团队">
     <meta name="robots" content="index,follow">
     
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="努努剧 - 免费高清影视在线观看平台">
-    <meta property="og:description" content="海量影视资源，极致观影体验">
+    <meta property="og:title" content="努努剧 - 开源的影视解决方案">
+    <meta property="og:description" content="基于Vue3+TypeScript的开源影视网站系统">
     <meta property="og:image" content="./images/logo.png">
     <meta property="og:url" content="https://nunuju.com">
     
-    <!-- 网站图标 -->
     <link rel="icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- 顶部导航 -->
     <header class="header">
         <div class="container">
             <div class="nav-wrapper">
                 <div class="logo">
-                    <a href="https://nunuju.com" title="努努剧官网">
-                        <img src="./images/logo.png" alt="努努剧logo" width="150" height="50" loading="eager">
+                    <a href="https://nunuju.com" title="努努剧 GitHub">
+                        <img src="./images/logo.png" alt="努努剧logo" width="150" height="50">
                     </a>
                 </div>
                 
-                <button class="nav-toggle" aria-label="切换菜单">
-                    <span class="hamburger"></span>
-                </button>
-    
-                <nav class="main-nav" aria-label="主导航">
+                <nav class="main-nav">
                     <ul class="nav-list">
                         <li class="nav-item">
-                            <a href="https://nunuju.com/vod/type/id/dianying.html" title="热门电影">
-                                <span class="nav-icon">🎬</span>
-                                <span class="nav-text">电影</span>
+                            <a href="#features">
+                                <span class="nav-icon">⚡</span>
+                                <span class="nav-text">特性</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://nunuju.com/vod/type/id/dianshiju.html" title="追剧神器">
-                                <span class="nav-icon">📺</span>
-                                <span class="nav-text">电视剧</span>
+                            <a href="#tech">
+                                <span class="nav-icon">🔧</span>
+                                <span class="nav-text">技术栈</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://nunuju.com/vod/type/id/zongyi.html" title="最新综艺">
-                                <span class="nav-icon">🎪</span>
-                                <span class="nav-text">综艺</span>
+                            <a href="#docs">
+                                <span class="nav-icon">📚</span>
+                                <span class="nav-text">文档</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://nunuju.com/vod/type/id/dongman.html" title="动漫番剧">
-                                <span class="nav-icon">🎨</span>
-                                <span class="nav-text">动漫</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://nunuju.com/vod/type/id/duanju.html" title="在线短剧">
-                                <span class="nav-icon">📱</span>
-                                <span class="nav-text">短剧</span>
+                            <a href="#contribute">
+                                <span class="nav-icon">🤝</span>
+                                <span class="nav-text">贡献</span>
                             </a>
                         </li>
                     </ul>
@@ -74,167 +63,111 @@
         </div>
     </header>
 
-    <!-- 主要内容区 -->
     <main>
-        <!-- 热门推荐轮播 -->
         <section class="hero-section">
-            <h1>努努剧 - 您的专属影视观看平台</h1>
-            <h2>海量正版影视资源，极致观影体验</h2>
-            <div class="features">
-                <div class="feature-item">
-                    <i class="icon-hd"></i>
-                    <h3>超清画质</h3>
-                    <p>支持1080P高清播放</p>
+            <h1>开源的影视站点解决方案</h1>
+            <h2>基于 Vue3 + TypeScript 构建</h2>
+            <div class="action-btns">
+                <a href="https://nunuju.com" class="primary-btn">
+                    <span class="btn-icon">🎬</span>
+                    立即体验
+                </a>
+                <a  class="github-btn">
+                    <span class="btn-icon">⭐</span>
+                    Star on GitHub
+                </a>
+            </div>
+            <div class="hero-features">
+                <div class="feature-tag">
+                    <span class="tag-icon">🎯</span>
+                    海量影视资源
                 </div>
-                <div class="feature-item">
-                    <i class="icon-speed"></i>
-                    <h3>急速播放</h3>
-                    <p>多线路超快加载</p>
+                <div class="feature-tag">
+                    <span class="tag-icon">🚀</span>
+                    极速播放体验
                 </div>
-                <div class="feature-item">
-                    <i class="icon-update"></i>
-                    <h3>及时更新</h3>
-                    <p>第一时间更新资源</p>
+                <div class="feature-tag">
+                    <span class="tag-icon">🆕</span>
+                    每日更新
                 </div>
             </div>
         </section>
 
-
-
-        <!-- 平台优势 -->
-        <section class="advantages">
-            <h2>为什么选择努努剧？</h2>
-            <div class="advantage-grid">
-                <div class="advantage-item">
-                    <h3>资源丰富</h3>
-                    <p>50000+影视资源任您选择</p>
+        <section id="features" class="features-section">
+            <h2>核心特性</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>高性能</h3>
+                    <p>基于Vue3 + Vite构建，首屏加载快，运行性能好</p>
                 </div>
-                <div class="advantage-item">
-                    <h3>观影体验</h3>
-                    <p>智能解析，多线路播放</p>
+                <div class="feature-card">
+                    <div class="feature-icon">🔌</div>
+                    <h3>可扩展</h3>
+                    <p>模块化设计，支持自定义接口和功能扩展</p>
                 </div>
-                <div class="advantage-item">
-                    <h3>免费观看</h3>
-                    <p>无需开通会员，免费观看</p>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>类型安全</h3>
+                    <p>TypeScript编写，完整类型定义</p>
                 </div>
-                <div class="advantage-item">
-                    <h3>极速缓冲</h3>
-                    <p>CDN加速，秒开不卡顿</p>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>响应式</h3>
+                    <p>自适应布局，完美支持移动端</p>
                 </div>
             </div>
         </section>
 
-        <!-- 用户评价 -->
-        <section class="testimonials">
-            <h2>用户好评</h2>
-            <div class="testimonial-grid">
-                <div class="testimonial-item">
-                    <div class="user-info">
-                        <div class="avatar" data-letters="追"></div>
-                        <span class="username">追剧达人</span>
-                        <div class="rating">★★★★★</div>
+        <section id="tech" class="tech-section">
+            <h2>技术栈</h2>
+            <div class="tech-grid">
+                <div class="tech-item">Vue3</div>
+                <div class="tech-item">TypeScript</div>
+                <div class="tech-item">Vite</div>
+                <div class="tech-item">Pinia</div>
+                <div class="tech-item">Vue Router</div>
+                <div class="tech-item">Element Plus</div>
+            </div>
+        </section>
+
+        <section id="contribute" class="contribute-section">
+            <h2>参与贡献</h2>
+            <div class="contribute-content">
+                <p>我们欢迎所有形式的贡献，无论是新功能、文档改进还是问题反馈。</p>
+                <div class="contribute-steps">
+                    <div class="step">
+                        <span class="step-num">1</span>
+                        <p>Fork 项目</p>
                     </div>
-                    <p class="comment">"太绝了！画质清晰到爆炸！最近追的《炽热的我们》全程1080P，根本停不下来，熬夜也要看完！一个字，666！"</p>
-                </div>
-        
-                <div class="testimonial-item">
-                    <div class="user-info">
-                        <div class="avatar" data-letters="动"></div>
-                        <span class="username">动漫控</span>
-                        <div class="rating">★★★★★</div>
+                    <div class="step">
+                        <span class="step-num">2</span>
+                        <p>创建特性分支</p>
                     </div>
-                    <p class="comment">"作为一个老二次元，真心被努努剧圈粉了！新番更新超快，画质还贼清晰，根本不卡，爱了爱了！每天追番必备！"</p>
-                </div>
-        
-                <div class="testimonial-item">
-                    <div class="user-info">
-                        <div class="avatar" data-letters="影"></div>
-                        <span class="username">电影迷</span>
-                        <div class="rating">★★★★★</div>
+                    <div class="step">
+                        <span class="step-num">3</span>
+                        <p>提交代码</p>
                     </div>
-                    <p class="comment">"兄弟们冲！这平台是真的良心！最新大片秒更，播放速度嘎嘎快，关键是完全免费！已经安利给我所有朋友了！"</p>
-                </div>
-        
-                <div class="testimonial-item">
-                    <div class="user-info">
-                        <div class="avatar" data-letters="剧"></div>
-                        <span class="username">剧荒少女</span>
-                        <div class="rating">★★★★★</div>
+                    <div class="step">
+                        <span class="step-num">4</span>
+                        <p>发起 Pull Request</p>
                     </div>
-                    <p class="comment">"这谁顶得住啊！资源也太全了吧！找到了好多年前想看没看到的剧，界面简洁清爽，观影体验直接拉满！强烈推荐！"</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- 页脚 -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
+                <p>© 2025 努努剧开源项目 - MIT License</p>
                 <div class="footer-links">
-                    <h3>快速链接</h3>
-                    <a href="https://nunuju.com/index.php/gbook/index.html">联系我们</a>
-                </div>
-                <div class="copyright">
-                    <p>© 2025 努努剧 - 专注打造极致观影体验</p>
+                    <a>GitHub</a>
+                    <a>文档</a>
+                    <a href="https://nunuju.com/index.php/gbook/index.html">问题反馈</a>
                 </div>
             </div>
         </div>
     </footer>
-
-    <!-- 结构化数据 -->
-    <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "WebSite",
-        "name": "努努剧",
-        "url": "https://nunuju.com",
-        "description": "免费高清影视在线观看平台",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://nunuju.com/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-        }
-    }
-    </script>
 </body>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const navToggle = document.querySelector('.nav-toggle');
-        const mainNav = document.querySelector('.main-nav');
-        const hamburger = document.querySelector('.hamburger');
-        const navItems = document.querySelectorAll('.nav-item a');
-
-        // 汉堡菜单切换
-        navToggle?.addEventListener('click', () => {
-            mainNav.classList.toggle('active');
-            hamburger.classList.toggle('active');
-        });
-
-        // 移动端触摸效果
-        navItems.forEach(item => {
-            item.addEventListener('touchstart', function(e) {
-                this.classList.add('touch-active');
-            }, { passive: true });
-
-            item.addEventListener('touchend', function(e) {
-                this.classList.remove('touch-active');
-            }, { passive: true });
-
-            // 点击后关闭菜单
-            item.addEventListener('click', () => {
-                mainNav.classList.remove('active');
-                hamburger.classList.remove('active');
-            });
-        });
-
-        // 点击外部区域关闭菜单
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('.header')) {
-                mainNav.classList.remove('active');
-                hamburger.classList.remove('active');
-            }
-        });
-    });
-</script>
 </html>
